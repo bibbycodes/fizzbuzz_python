@@ -20,3 +20,15 @@ def test_fizzbuzz_with_input_5():
 
 def test_fizzbuzz_with_input_6():
   assert fizzbuzz(6) == 'fizz'
+
+def test_fizzbuzz_with_input_9():
+  assert fizzbuzz(9) == 'fizz' 
+
+def test_fizzbuzz_with_input_10():
+  assert fizzbuzz(10) == 'buzz'
+
+def test_fizzbuzz_with_input_15():
+  assert fizzbuzz(15) == 'fizzbuzz'
+
+def test_fizzbuzz_with_input_45():
+  assert fizzbuzz(45) == 'fizzbuzz'
